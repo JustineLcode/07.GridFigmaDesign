@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -30,6 +31,9 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color: #007DFC;
+    font-family: "Outfit";
+    font-weight: 900;
 }
 .frame1{
     width: 331px;
@@ -58,7 +62,7 @@ body{
     width: 64px;
     height: 30px;
     background-color: #007DFC;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 
@@ -96,6 +100,7 @@ h1{
     letter-spacing: 0.04em;
     flex-wrap: nowrap;
     word-spacing: 32px;
+    margin-bottom: 20px;
 }
 span{
     color:#FFB800;
@@ -110,14 +115,19 @@ h2{
     font-weight: 800;
     line-height: 26px;
     letter-spacing: 0.04em;
+    margin-bottom: 20px;
+}
+.hr1{
+    margin-bottom: 20px;
 }
 p{
     color: #FFFFFF;
-
+    margin-bottom: 20px;
     font-size: 16px;
     font-weight: 400;
     line-height: 20.88px;
     letter-spacing: 0.02em;
+    margin-bottom: 20px;
 }
 .know{
     width: 141px;
@@ -133,6 +143,7 @@ p{
     font-weight: 400;
     line-height: 20.88px;
     letter-spacing: 0.02em;
+    margin-bottom: 20px;
 }
 
 .logo-middle{
