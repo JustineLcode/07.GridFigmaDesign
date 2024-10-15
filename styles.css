@@ -58,9 +58,8 @@ body{
     line-height: 14px;
     letter-spacing: 0.055em;
 }
-.rectangle3{
-    width: 64px;
-    height: 30px;
+.list1 li:hover {
+    padding: 10px;
     background-color: #007DFC;
     border-radius: 5px;
 }
@@ -126,7 +125,8 @@ p{
     letter-spacing: 0.02em;
     margin-bottom: 20px;
 }
-.know{
+.blocipsum a{
+    text-decoration: none;
     width: 141px;
     height: 41px;
     top: 494px;
